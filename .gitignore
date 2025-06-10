@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.svelte-kit/
+.vercel/
+.netlify/
+.output/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Strapi specific (when backend is created)
+backend/.tmp/
+backend/.cache/
+backend/build/
+backend/uploads/
+backend/.strapi-updater.json
+backend/package-lock.json
+
+# Frontend specific
+frontend/package-lock.json
+frontend/.svelte-kit/
+
+# OS files
+Thumbs.db
