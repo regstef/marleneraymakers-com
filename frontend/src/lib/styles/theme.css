@@ -1,0 +1,47 @@
+/* Luxury Brand Theme - Nur 3 Farben */
+:root {
+  /* 1. Marken-Palette */
+  --brand-black: #000000;
+  --brand-white: #ffffff;
+  --brand-gray: #808080;
+
+  /* 2. Semantische Mappings für Open Props */
+  --surface-1: var(--brand-white); /* Haupt-Hintergrund */
+  --surface-2: var(--gray-1); /* Leichter Hintergrund */
+  --surface-3: var(--gray-2); /* Hover States */
+  --surface-4: var(--brand-gray); /* Akzent-Hintergrund */
+
+  --text-1: var(--brand-black); /* Primärer Text */
+  --text-2: var(--brand-gray); /* Sekundärer Text */
+
+  /* Borders & Dividers */
+  --border: var(--brand-gray);
+
+  /* Links */
+  --link: var(--brand-black);
+  --link-visited: var(--brand-black);
+
+  /* Focus States */
+  --focus: var(--brand-gray);
+
+  /* 3. Typography für Luxury Look */
+  --font-sans: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', 'Georgia', serif;
+
+  /* Font Weight Overrides für Eleganz */
+  --font-weight-1: 300; /* Lighter */
+  --font-weight-4: 400; /* Normal */
+  --font-weight-6: 600; /* Semi-bold für Akzente */
+
+  /* 4. Spacing für luftiges Design */
+  --size-content-1: 65ch; /* Optimale Lesebreite */
+  --size-content-2: 80ch;
+  --size-content-3: 90ch;
+
+  /* 5. Container */
+  --container-max: 1440px;
+
+  /* 6. Animations - Elegant und zurückhaltend */
+  --ease-luxury: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 300ms;
+}

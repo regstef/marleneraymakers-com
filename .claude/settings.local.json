@@ -201,7 +201,21 @@
       "Bash(/Users/regstef/.npm-global/bin/pnpm add -D globals @eslint/js typescript-eslint)",
       "Bash(/Users/regstef/.npm-global/bin/pnpm add -D @testing-library/jest-dom)",
       "Bash(/Users/regstef/.npm-global/bin/pnpm exec svelte-kit sync)",
-      "Bash(/Users/regstef/.npm-global/bin/pnpm dev)"
+      "Bash(/Users/regstef/.npm-global/bin/pnpm dev)",
+      "Bash(/Users/regstef/.npm-global/bin/pnpm check)",
+      "Bash(/Users/regstef/.npm-global/bin/pnpm add open-props)",
+      "Bash(/Users/regstef/.npm-global/bin/pnpm add -D postcss-jit-props autoprefixer)",
+      "Bash(/Users/regstef/.npm-global/bin/pnpm add bits-ui@latest)",
+      "Bash(pnpm run format:check:*)",
+      "Bash(pnpm run format:*)",
+      "Bash(pnpm run lint:*)",
+      "Bash(pnpm exec prettier:*)",
+      "Bash(pnpm exec eslint:*)",
+      "Bash(pnpm test:unit:*)",
+      "Bash(pnpm validate:*)",
+      "Bash(pnpm format)",
+      "Bash(pnpm lint:fix:*)",
+      "Bash(pnpm build:*)"
     ],
     "deny": []
   }

@@ -20,6 +20,7 @@ This is a luxury e-commerce platform for marleneraymakers.com, featuring sustain
 - **i18n**: Built-in pattern with [[lang]] routes
 - **Analytics**: Plausible
 - **Deployment**: Frontend on Vercel, Strapi on Railway/Render
+- **Package Manager**: pnpm
 
 ## Product Types
 
@@ -33,39 +34,39 @@ The platform handles three distinct product types:
 ### Initial Setup (When starting from scratch)
 ```bash
 # Create SvelteKit project
-npx sv create frontend
+pnpm create svelte@latest frontend
 cd frontend
 
 # Install core dependencies
-npm install
+pnpm install
 
 # Install Open Props and Bits UI
-npm install open-props
-npm install bits-ui
+pnpm install open-props
+pnpm install bits-ui
 
 # Install additional dependencies
-npm install sveltekit-superforms zod
-npm install -D @sveltejs/adapter-vercel
+pnpm install sveltekit-superforms zod
+pnpm install -D @sveltejs/adapter-vercel
 ```
 
 ### Daily Development
 ```bash
 # Frontend development
 cd frontend
-npm run dev        # Start dev server (http://localhost:5173 or 5174)
-npm run build      # Build for production
-npm run preview    # Preview production build
-npm run test       # Run Vitest tests
-npm run lint       # Run ESLint
-npm run check      # Run svelte-check for type checking
+pnpm dev        # Start dev server (http://localhost:5173 or 5174)
+pnpm build      # Build for production
+pnpm preview    # Preview production build
+pnpm test       # Run Vitest tests
+pnpm lint       # Run ESLint
+pnpm check      # Run svelte-check for type checking
 ```
 
 ### Strapi Backend (when implemented)
 ```bash
 cd backend
-npm run develop    # Start Strapi in development mode
-npm run build      # Build Strapi admin panel
-npm run start      # Start Strapi in production mode
+pnpm develop    # Start Strapi in development mode
+pnpm build      # Build Strapi admin panel
+pnpm start      # Start Strapi in production mode
 ```
 
 ## Project Structure
@@ -133,7 +134,7 @@ The platform has THREE distinct product types with different business logic:
 
 ### Current Project Status
 - **Phase**: Initial setup
-- **Frontend**: Not yet created (use `npx sv create frontend`)
+- **Frontend**: Not yet created (use `pnpm create svelte@latest frontend`)
 - **Backend**: Not yet created (Strapi v5 planned)
 - **Next Steps**: Follow PROJECT-ROADMAP.md Phase 1
 
@@ -174,6 +175,3 @@ When setting up the frontend:
 - **GitHub**: Repository management
 - **Gemini**: Braindstorming with another LLM
 - **mcp__gemini__think_deeper**: Extended thinking for complex problems
-
-
-

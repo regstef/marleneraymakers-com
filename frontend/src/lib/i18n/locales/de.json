@@ -1,0 +1,112 @@
+{
+  "common": {
+    "brand": "Marlene Raymakers",
+    "add_to_cart": "In den Warenkorb",
+    "sold_out": "Ausverkauft",
+    "request_consultation": "Beratung anfragen",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "submit": "Absenden",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "currency": "EUR"
+  },
+  "nav": {
+    "home": "Startseite",
+    "artwork": "Kunstwerke",
+    "exclusives": "Exklusives",
+    "basics": "Basics",
+    "cart": "Warenkorb",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "language": "Sprache"
+  },
+  "homepage": {
+    "welcome": "Willkommen bei Marlene Raymakers",
+    "tagline": "Luxuriöse Maßanfertigungen und Kunst",
+    "featured_products": "Ausgewählte Produkte",
+    "shop_now": "Jetzt einkaufen",
+    "learn_more": "Mehr erfahren"
+  },
+  "products": {
+    "all_products": "Alle Produkte",
+    "filter_by": "Filtern nach",
+    "sort_by": "Sortieren nach",
+    "price_low_high": "Preis: Niedrig bis Hoch",
+    "price_high_low": "Preis: Hoch bis Niedrig",
+    "newest_first": "Neueste zuerst",
+    "no_products": "Keine Produkte gefunden",
+    "view_details": "Details ansehen",
+    "price": "Preis",
+    "stock": "{count, plural, =0 {Nicht auf Lager} =1 {1 Stück verfügbar} other {# Stück verfügbar}}",
+    "size_guide": "Größentabelle",
+    "care_instructions": "Pflegehinweise"
+  },
+  "cart": {
+    "title": "Ihr Warenkorb",
+    "empty": "Ihr Warenkorb ist leer",
+    "continue_shopping": "Weiter einkaufen",
+    "quantity": "Anzahl",
+    "remove": "Entfernen",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "shipping_calculated": "Wird beim Checkout berechnet",
+    "total": "Gesamt",
+    "checkout": "Zur Kasse",
+    "items": "{count, plural, =0 {Keine Artikel} =1 {1 Artikel} other {# Artikel}}"
+  },
+  "exclusives": {
+    "title": "Exklusive Kreationen",
+    "subtitle": "Maßgeschneiderte Designs nach Ihrer Vision",
+    "inquiry_form": {
+      "title": "Ihr exklusives Stück anfragen",
+      "personal_info": "Persönliche Informationen",
+      "full_name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "preferred_contact": "Bevorzugte Kontaktmethode",
+      "project_details": "Projektdetails",
+      "inquiry_type": "Was suchen Sie?",
+      "type_full_outfit": "Komplettes Outfit",
+      "type_modification": "Modifikation eines bestehenden Designs",
+      "type_custom": "Komplett individuelles Design",
+      "description": "Beschreiben Sie Ihre Vision",
+      "description_placeholder": "Erzählen Sie uns von Ihrem Traumstück, dem Anlass, Ihren Stilvorlieben...",
+      "budget_timeline": "Budget & Zeitrahmen",
+      "budget_range": "Budgetrahmen",
+      "budget_under_5000": "Unter 5.000 €",
+      "budget_5000_10000": "5.000 € - 10.000 €",
+      "budget_10000_20000": "10.000 € - 20.000 €",
+      "budget_above_20000": "Über 20.000 €",
+      "timeline": "Gewünschter Zeitrahmen",
+      "timeline_placeholder": "Wann benötigen Sie das fertige Stück?",
+      "submit": "Anfrage senden",
+      "success_message": "Vielen Dank für Ihre Anfrage! Wir melden uns innerhalb von 2 Werktagen bei Ihnen."
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Bleiben Sie informiert",
+      "subtitle": "Abonnieren Sie unseren Newsletter für exklusive Updates",
+      "email_placeholder": "Ihre E-Mail-Adresse",
+      "subscribe": "Abonnieren",
+      "success": "Vielen Dank für Ihre Anmeldung!"
+    },
+    "links": {
+      "customer_service": "Kundenservice",
+      "shipping_returns": "Versand & Rückgabe",
+      "size_guide": "Größentabelle",
+      "care_guide": "Pflegeanleitung",
+      "contact": "Kontakt",
+      "legal": "Rechtliches",
+      "privacy_policy": "Datenschutz",
+      "terms_conditions": "AGB",
+      "imprint": "Impressum"
+    },
+    "social": {
+      "follow_us": "Folgen Sie uns"
+    },
+    "copyright": "© {year} Marlene Raymakers. Alle Rechte vorbehalten."
+  }
+}
