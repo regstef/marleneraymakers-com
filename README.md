@@ -127,7 +127,6 @@ We follow a standard GitHub Flow process.
 - [Project Roadmap](docs/PROJECT-ROADMAP.md) - Development phases and milestones
 - [Setup Guide](docs/SVELTEKIT-PROJECT-SETUP-GUIDE.md) - Detailed technical setup instructions
 - [CLAUDE.md](CLAUDE.md) - AI assistant instructions for working with this codebase
-- [docs/SVELTEKIT-DOC.md] - SvelteKit Documentation for LLM useclau
 
 ## 🔒 Security
 

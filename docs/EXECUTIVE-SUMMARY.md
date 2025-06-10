@@ -891,7 +891,6 @@ const PRODUCT_CONFIG: Record<ProductType, ProductConfig> = {
 
 2. **Lead Funnel für Exclusives:**
    - Ist KEIN simples Kontaktformular
-   - Muss Lead Scoring ermöglichen
    - Braucht Follow-up Capabilities
    - Integration mit CRM-Funktionalität in Strapi
 

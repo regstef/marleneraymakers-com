@@ -1,0 +1,35 @@
+/* Import Open Props - will be added later */
+/* @import "open-props/style"; */
+/* @import "open-props/normalize"; */
+
+/* Custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+/* Brand Colors - Only 3! */
+:root {
+  /* Primary Palette */
+  --color-ink: #000000;     /* Black */
+  --color-canvas: #FFFFFF;   /* White */
+  --color-accent: #808080;   /* Gray */
+  
+  /* Font Families */
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Source Sans 3', sans-serif;
+  
+  /* Container */
+  --container-max: 1440px;
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background-color: var(--color-canvas);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+}

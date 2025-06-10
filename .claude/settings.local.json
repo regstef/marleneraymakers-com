@@ -191,7 +191,17 @@
       "mcp__gemini__chat",
       "mcp__gemini__think_deeper",
       "mcp__gemini__debug_issue",
-      "WebFetch(domain:daisyui.com)"
+      "WebFetch(domain:daisyui.com)",
+      "Bash(corepack enable)",
+      "Bash(pnpm create:*)",
+      "Bash(pnpm add:*)",
+      "Bash(corepack disable)",
+      "Bash(/Users/regstef/.npm-global/bin/pnpm add -D @sveltejs/kit @sveltejs/vite-plugin-svelte @sveltejs/adapter-auto svelte@^5.0.0 vite typescript @types/node)",
+      "Bash(/Users/regstef/.npm-global/bin/pnpm add -D svelte-check)",
+      "Bash(/Users/regstef/.npm-global/bin/pnpm add -D globals @eslint/js typescript-eslint)",
+      "Bash(/Users/regstef/.npm-global/bin/pnpm add -D @testing-library/jest-dom)",
+      "Bash(/Users/regstef/.npm-global/bin/pnpm exec svelte-kit sync)",
+      "Bash(/Users/regstef/.npm-global/bin/pnpm dev)"
     ],
     "deny": []
   }

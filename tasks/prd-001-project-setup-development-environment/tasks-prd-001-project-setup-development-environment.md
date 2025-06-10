@@ -48,13 +48,13 @@
 
 - [ ] 1.0 Repository Setup & "Hello World" SvelteKit
   - [x] 1.1 Create new GitHub repository `marleneraymakers-com` with initial README
-  - [ ] 1.2 Clone repository locally and create `.gitignore` for Node.js, SvelteKit, and IDEs
-  - [ ] 1.3 Install PNPM globally (`npm install -g pnpm`) and enable Corepack (`corepack enable`)
-  - [ ] 1.4 Create `.npmrc` with `engine-strict=true` and `auto-install-peers=true`
-  - [ ] 1.5 Initialize SvelteKit project: `pnpx sv create frontend` (select TypeScript, ESLint, Prettier, Vitest)
-  - [ ] 1.6 Navigate to frontend folder and install dependencies: `pnpm install`
-  - [ ] 1.7 Add package manager enforcement to `package.json`: `"packageManager": "pnpm@8.15.0"` and preinstall script
-  - [ ] 1.8 Start development server (`pnpm dev`) and verify it runs on http://localhost:5173
+  - [x] 1.2 Clone repository locally and create `.gitignore` for Node.js, SvelteKit, and IDEs
+  - [x] 1.3 Install PNPM globally (`npm install -g pnpm`) and enable Corepack (`corepack enable`)
+  - [x] 1.4 Create `.npmrc` with `engine-strict=true` and `auto-install-peers=true`
+  - [x] 1.5 Initialize SvelteKit project: `pnpx sv create frontend` (select TypeScript, ESLint, Prettier, Vitest)
+  - [x] 1.6 Navigate to frontend folder and install dependencies: `pnpm install`
+  - [x] 1.7 Add package manager enforcement to `package.json`: `"packageManager": "pnpm@8.15.0"` and preinstall script
+  - [x] 1.8 Start development server (`pnpm dev`) and verify it runs on http://localhost:5173
   - [ ] 1.9 Commit initial SvelteKit setup with meaningful commit message
 
 - [ ] 2.0 Project Architecture & TypeScript Configuration  
